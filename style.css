@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: poppings;
+
+
+}
+.warper {
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("backk.JPG");
+	height: 100vh;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-bar{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+
+}
+.nav-bar li {
+	display: inline-block;
+}
+.nav-bar li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	
+	font-size: 16px;
+
+}
+.nav-bar li a:hover {
+	background-color: #fff;
+	color: #333;
+}
+.logo img {
+	width: 100px;
+	float: left;
+	height: auto;
+}
+.quote {
+	position: absolute;
+	width: 600PX;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.quote h1 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.quote a {
+	border: 2px solid #fff;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+
+}
+.bodywarp{
+	background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("back.JPG");
+
+}
+.quote a:hover{
+	background-color: #fff;
+	color: #333;
+}
+#about h1 {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 35px;
+		padding: 20px;
+		margin: 20;
+		
+		background-color: #fff;
+}
+#about p{
+	padding: 60px;
+	margin:20px;
+	color: #fff;		
+}
+th {
+	text-align: left;
+	color: #fff;
+}
